@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+#cover{
+  display: flex;
+  height: 100%;
+  margin: 0;
+  flex-direction: row;
+}
+
+form {
+  align-content: center;
+  align-self: center;
+  margin: 10px;
+}
+
+input {
+  width: 300px;
+  height: 45px;
+  display: flex;
+  align-self: center;
+  background-color: white;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: rgb(176, 176, 176);
+  border-width: 2px;
+  color: rgb(61, 61, 61);
+  font-size: 16px;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  justify-self: center;
+}
+
+#button {
+  margin-top: 20px;
+  display: flex;
+  align-self:center;
+  justify-self: center;
+  width: 300px;
+  height: 35px;
+  color: white;
+  background-color: rgb(188, 105, 229);
+  border-radius: 10px;
+  border-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+}
+
+#swapbutton {
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  width: 300px;
+  height: 35px;
+  color: white;
+  background-color: rgb(229, 208, 105);
+  border-radius: 10px;
+  border-color: rgb(226, 180, 43);
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  flex-direction: row;
+}
+
+#middle{
+  width: 480px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#middlebox{
+  height: 500px;
+  background-color: white;
+  flex: 1;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#login{
+  flex: 2;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.logintext {
+  font-size: 30px;
+  align-self: center;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  font-family: "Schibsted Grotesk";
+  font-weight: 600;
+  justify-self: center;
+}
+
+#normaltext {
+  font-size: 14px;
+  margin-left: 75px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Schibsted Grotesk";
+  font-weight: 300;
+}
+
+#infotext {
+  width: 300px;
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  font-family: "Schibsted Grotesk";
+  font-weight: 350;
+  color: rgb(141, 141, 141);
+}
